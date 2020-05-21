@@ -385,6 +385,7 @@ jQuery(function ($) {
             playTrack = function (id) {
                 loadTrack(id);
                 audio.play();
+                $("html, body").animate({ scrollTop: 0 }, "slow");
             };
         extension = audio.canPlayType('audio/mpeg') ? '.mp3' : audio.canPlayType('audio/ogg') ? '.ogg' : '';
         loadTrack(index);
