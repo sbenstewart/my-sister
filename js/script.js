@@ -17,13 +17,13 @@ jQuery(function ($) {
         });
         // initialize playlist and controls
         var index = 0,
-            playing = true,
+            playing = false,
             mediaPath = 'https://archive.org/download/herrin-fragrance/',
             extension = '',
             tracks = [{
                 "track": 1,
                 "name": "Chinna Olikathir",
-                "duration": "5:09",
+                "duration": "2:42",
                 "file": "01 Chinna Olikathir"
             }, {
                 "track": 2,
