@@ -23,12 +23,12 @@ jQuery(function ($) {
             tracks = [{
                 "track": 1,
                 "name": "Chinna Olikathir",
-                "duration": "1:21",
+                "duration": "5:09",
                 "file": "01 Chinna Olikathir"
             }, {
                 "track": 2,
                 "name": "Akka Akka",
-                "duration": "0:39",
+                "duration": "1:18",
                 "file": "02 Akka Akka"
             }, {
                 "track": 3,
