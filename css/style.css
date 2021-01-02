@@ -214,7 +214,7 @@ color:rgba(0,0,0,.1);
 ================================================== */
 
 @media only screen and (max-width:600px) {
-    #image {width: 200px;}
+    #image {width: 201px;}
     #nowPlay span#npAction { display:none; }
     #nowPlay span#npTitle { display: block; text-align:center; width:100%; }
 }

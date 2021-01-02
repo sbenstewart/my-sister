@@ -396,7 +396,6 @@ jQuery(function ($) {
         $('.container').append('<p class="no-support">' + noSupport + '</p>');
     }
 });
-//Player controls while scrolling.
 
 
    
