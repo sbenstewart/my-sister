@@ -396,3 +396,14 @@ jQuery(function ($) {
         $('.container').append('<p class="no-support">' + noSupport + '</p>');
     }
 });
+//Player controls while scrolling.
+
+
+    window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementById("navbar").style.padding = "0";
+    document.getElementById("image").addClass="smallsize";
+  }
+}
