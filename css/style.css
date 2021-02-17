@@ -213,8 +213,19 @@ color:rgba(0,0,0,.1);
 /* Media Queries
 ================================================== */
 
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:450px) {
     #image  {width: 200px;margin: auto;}
     #nowPlay span#npAction { display:none; }
     #nowPlay span#npTitle { display:block; text-align:center; width:100%;margin: auto; }
 }
+@media only screen and (min-width:451px) and (max-width:760px) {
+    #mainwrap{padding: 0;margin-left: 19%;margin-right: 15%;}
+    #audiowrap{padding: 0;margin:0;justify-content: center;margin-bottom: 0;}
+    #tracks{padding: 0;position: relative;margin: auto;margin-bottom: 0;}
+    #image  {width: 110px;margin:0;margin-left:5%;position:absolute;}
+    #nowPlay span#npAction { display:none; }
+    #nowPlay span#npTitle {   float:right;margin: auto;position: relative; }
+}
+
+
+
