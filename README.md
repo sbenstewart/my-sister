@@ -20,7 +20,7 @@ This website was created because of one frustrated [Ben Stewart](https://sbenste
 
 ## How this ?
 
-The frustrated Ben Stewart being a bit familiar with HTML, just plapyed around with the same to implememnt it.
+The frustrated Ben Stewart being a bit familiar with HTML, just played around with the same to implement it.
 
 The tech stuff used are as follows:
 
