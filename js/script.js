@@ -300,6 +300,26 @@ jQuery(function ($) {
                 "name": "Mannipu Undu Uncut",
                 "duration": "1:26",
                 "file": "56 Mannipu Undu Uncut"
+            }, {
+                "track": 57,
+                "name": "One thing is needful",
+                "duration": "1:09",
+                "file": "57 One thing is needful"
+            }, {
+                "track": 58,
+                "name": "Thillalangadi",
+                "duration": "1:29",
+                "file": "58 Thillalangadi"
+            }, {
+                "track": 59,
+                "name": "Vandhadhe",
+                "duration": "1:25",
+                "file": "56 Vandhadhe"
+            }, {
+                "track": 60,
+                "name": "Nanmai Seivom",
+                "duration": "1:22",
+                "file": "60 Nanmai Seivom"
             }],
             buildPlaylist = $.each(tracks, function(key, value) {
                 var trackNumber = value.track,
